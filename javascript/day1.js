@@ -5,5 +5,7 @@ const userName = "Ajay"
 let city = "Bhopal"
 console.log(userName,city)
 city="Mumbai"
-console.log(userName,city)
+
+// printed using template literals
+console.log(`Name: ${userName}, City: ${city}`)
 
